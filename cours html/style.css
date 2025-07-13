@@ -1,0 +1,27 @@
+body {
+    background-color: #eda0e0;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  h1 {
+    color: #571dea;
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1.2em;
+    color: #555555;
+  }
+  
+   /* LA BAND DANONCE */
+
+  .bande-annonce {
+    background-color: #6cccf5;  /* BLEU clair */
+    color: rgb(182, 20, 210);
+    text-align: center;
+    padding: 50px;
+  }
+  

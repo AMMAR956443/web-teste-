@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Site Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body bgcolor="pink"> 
+  <!-- LA BANDE D'ANONC -->
+    <body>
+        <div class="bande-annonce">   
+          ⚠️ JE SUIS LE GOAT.
+        </div>
+      
+     <!-- LE SITE WEB -->
+  <header>
+    <h1>Bienvenue sur Mon Site Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#galerie">Galerie</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="horaire"> horaire</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h2>Accueil</h2>
+    <p>Bienvenue ! Ceci est un exemple de site web simple avec HTML, CSS et JavaScript.</p>
+  </section>
+
+  <section id="a-propos">
+    <h2>À propos</h2>
+    <p>Je suis passionné par le web et j'adore créer des sites simples et efficaces.</p>
+  </section>
+
+  <section id="galerie">
+    <h2>Galerie</h2>
+    <div class="galerie">
+      <img src="https://via.placeholder.com/200" alt="Image 1" />
+      <img src="https://via.placeholder.com/200" alt="Image 2" />
+      <img src="https://via.placeholder.com/200" alt="Image 3" />
+    </div>
+    <section id="horaire">
+        <h3>horaire</h3>
+        <p>lundi   8h00 A  20h00
+           <P>mardi   8h00 A  20h00</P>
+           <P> mercredi  8h00 A  20h00</P>
+           <P> jeudi    8h00 A  20h00</P>
+           <P> vendredie  8h00 A  20h00</P>
+           samedie  FERME
+           <P></P>
+         dimanche FERME
+           <P></P>
+
+    
+        </p>
+
+    </section>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="formulaire-contact">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required />
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+    <p id="confirmation" style="display:none;">Merci pour votre message !</p>
+  </section>
+
+ 
+
+  <script src="script.js"></script>
+</body>
+
+</html>
